@@ -1,4 +1,8 @@
 language: rust
+rust:
+  - stable
+  - beta
+  - nightly
 install:
   - sudo apt-get install libXxf86vm-dev
   - sudo apt-get install libsfml-dev
